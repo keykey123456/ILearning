@@ -14,6 +14,7 @@
 		3BED6C051C5CF2540052DF65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BED6C041C5CF2540052DF65 /* Images.xcassets */; };
 		3BED6C081C5CF2540052DF65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BED6C061C5CF2540052DF65 /* LaunchScreen.xib */; };
 		3BED6C141C5CF2540052DF65 /* MeCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BED6C131C5CF2540052DF65 /* MeCacheTests.m */; };
+		3BED6C221C5CF5190052DF65 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BED6C211C5CF5190052DF65 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3BED6C0D1C5CF2540052DF65 /* MeCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BED6C121C5CF2540052DF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BED6C131C5CF2540052DF65 /* MeCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeCacheTests.m; sourceTree = "<group>"; };
+		3BED6C201C5CF5190052DF65 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3BED6C211C5CF5190052DF65 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 		3BED6BF71C5CF2540052DF65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3BED6C201C5CF5190052DF65 /* Person.h */,
+				3BED6C211C5CF5190052DF65 /* Person.m */,
 				3BED6BF81C5CF2540052DF65 /* Info.plist */,
 				3BED6BF91C5CF2540052DF65 /* main.m */,
 			);
@@ -221,6 +226,7 @@
 			files = (
 				3BED6C001C5CF2540052DF65 /* ViewController.m in Sources */,
 				3BED6BFD1C5CF2540052DF65 /* AppDelegate.m in Sources */,
+				3BED6C221C5CF5190052DF65 /* Person.m in Sources */,
 				3BED6BFA1C5CF2540052DF65 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
